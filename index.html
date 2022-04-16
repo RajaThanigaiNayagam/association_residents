@@ -13,12 +13,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
     <body>
-    
-        <!-- Navbar-->
+        <!----------------------------------------------------------->
+        <!----------------------Navbar------------------------------->
+        <!----------------------------------------------------------->
         <div class="container-fluid col-10">
-            <!-----------Navbar find in Bootstrap website------------>
+            <!----------------------------------------------------------->
+            <!-------Navbar model found in Bootstrap website------------->
+            <!----------------------------------------------------------->
             <nav class="navbar navbar-expand-lg" id="navbar">
                 <b class="bold">L'ASSOCIATION DES RESIDENTS</b>
+                <!----------------------------------------------------------->
+                <!-------on click Button show the Navigation bar------------->
+                <!----------------------------------------------------------->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                 data-bs-target="#menu">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -28,13 +34,13 @@
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav ms-auto mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#service">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -42,8 +48,83 @@
                     </ul>
                 </div>
             </nav>
+            
 
-            <!--------Home-------->
+            <!----------------------------------------------------------->
+            <!--                    Home section                 -------->
+            <!----------------------------------------------------------->
+            <section id="home">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12 order-1 pt-5">
+                        <h1 class="display-5"><span>Bienvenu dans <br> notre site de l'association Residents</span> </h1>
+                        <p class="my-lg-2 my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reiciendis eveniet enim quo maiores eum facilis, nemo corrupti perspiciatis non provident harum voluptate debitis numquam maxime repellendus nisi distinctio ratione.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3
+                    order-sm-2">
+                        <img src="https://images.pexels.com/photos/2388639/pexels-photo-2388639.jpeg" class="img-fluid">
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!----------------------------------------------------------->
+            <!--                    About section                 -------->
+            <!----------------------------------------------------------->
+            <section id="about">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3">
+                        <img src="https://images.pexels.com/photos/358255/pexels-photo-358255.jpeg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 pt-5">
+                        <h6 style="font-size: 50px;">About us</h6>
+                        <h1 class="display-5"> <span>L'ASSOCIATION RESIDENTS</span></h1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dicta perferendis molestias harum, aliquid quis fugiat beatae velit consectetur sequi, ipsa earum quod commodi id optio. Quam aliquam dolor aspernatur!</P>
+                    </div>
+                </div>
+            </section>
+
+
+            <!----------------------------------------------------------->
+            <!--                    Service section              -------->
+            <!----------------------------------------------------------->
+            <section id="service">
+                <div class="row">
+                    <h1 class="text-center">NOTRE SERVICES</h1>
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <img src="https://images.pexels.com/photos/688835/pexels-photo-688835.jpeg" class="card-img-top rounded">
+                            <div class="card-body">
+                                <h5 class="card-title">Responsive design</h5>
+                                <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis labore placeat inventore? Illo, recusandae.</div>
+                                <a href="#" type="button" class="btn btn-success">Continuer</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <img src="https://images.pexels.com/photos/1406865/pexels-photo-1406865.jpeg" class="card-img-top rounded">
+                            <div class="card-body">
+                                <h5 class="card-title">Responsive design</h5>
+                                <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis labore placeat inventore? Illo, recusandae.</div>
+                                <a href="#" type="button" class="btn btn-success">Continuer</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <img src="https://images.pexels.com/photos/624064/pexels-photo-624064.jpeg" class="card-img-top rounded">
+                            <div class="card-body">
+                                <h5 class="card-title">Responsive design</h5>
+                                <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis labore placeat inventore? Illo, recusandae.</div>
+                                <a href="#" type="button" class="btn btn-success">Continuer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </body> <!--Init JS file-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

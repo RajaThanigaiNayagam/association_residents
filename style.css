@@ -8,7 +8,22 @@ body{
     font-family: 'poppins', sans-serif;
 }
 
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*------Navbar-----*/
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+
+
 .bold{
     font-size: 20px;
 }
@@ -27,4 +42,29 @@ li{
 .nav-link:hover{
     border-bottom: 2px solid blue;
     transition: .1s;
+}
+
+
+/*----------Home--------------*/
+
+#home img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50px;
+}
+
+span{
+    color: blue;
+    font-weight: bold;
+}
+p{
+    font-size: 12px;
+}
+
+
+/*------About-----*/
+#about img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50px;
 }
