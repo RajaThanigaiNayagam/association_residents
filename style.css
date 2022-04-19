@@ -68,3 +68,12 @@ p{
     height: 25rem;
     border-radius: 50px;
 }
+
+/*-------------------------------------------------------*/
+/*----                   EVENEMENTS PAGE             ----*/
+/*-------------------------------------------------------*/
+
+.head-menu{
+    border-radius: 5px;
+    border: 1px solid red;
+}
